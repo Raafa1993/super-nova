@@ -20,13 +20,13 @@ const RecentActivity = () => {
       <Col xl={4}>
         <Card>
           <CardHeader className="align-items-center d-flex">
-            <CardTitle className="mb-0 flex-grow-1">Recent Activity</CardTitle>
+            <CardTitle className="mb-0 flex-grow-1">Atividade Recente</CardTitle>
             <div className="flex-shrink-0">
               <select className="form-select form-select-sm mb-0 my-n1">
-                <option defaultValue="Today">Today</option>
-                <option value="Yesterday">Yesterday</option>
-                <option value="Week">Last Week</option>
-                <option value="Month">Last Month</option>
+                <option defaultValue="Today">Hoje</option>
+                <option value="Yesterday">Ontem</option>
+                <option value="Week">Ultima semana</option>
+                <option value="Month">Ultimo Mês</option>
               </select>
             </div>
           </CardHeader>
@@ -65,13 +65,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>
@@ -110,13 +110,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>
@@ -155,13 +155,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>
@@ -200,13 +200,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>
@@ -245,13 +245,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>
@@ -290,13 +290,13 @@ const RecentActivity = () => {
                           </DropdownToggle>
 
                           <DropdownMenu className="dropdown-menu-end">
-                            <DropdownItem to="#">Action</DropdownItem>
-                            <DropdownItem to="#">Another action</DropdownItem>
+                            <DropdownItem to="#">Ações</DropdownItem>
+                            <DropdownItem to="#">Outras ações</DropdownItem>
                             <DropdownItem to="#">
-                              Something else here
+                              Algo mais aqui
                             </DropdownItem>
                             <div className="dropdown-divider"></div>
-                            <DropdownItem to="#">Separated link</DropdownItem>
+                            <DropdownItem to="#">Link separado</DropdownItem>
                           </DropdownMenu>
                         </UncontrolledDropdown>
                       </div>

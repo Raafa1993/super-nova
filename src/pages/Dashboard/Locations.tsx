@@ -19,13 +19,13 @@ const Locations = (props: any) => {
         <Card>
           <CardBody>
             <div className="d-flex flex-wrap align-items-center mb-4">
-              <h5 className="card-title me-2">Sales by Location</h5>
+              <h5 className="card-title me-2">Vendas por Localidade</h5>
               <div className="ms-auto">
                 <UncontrolledDropdown>
                   <DropdownToggle className="text-reset" to="#" tag="a">
-                    <span className="text-muted font-size-12">Sort By:</span>{" "}
+                    <span className="text-muted font-size-12">Ordenar por:</span>{" "}
                     <span className="fw-medium">
-                      World<i className="mdi mdi-chevron-down ms-1"></i>
+                      Mundo<i className="mdi mdi-chevron-down ms-1"></i>
                     </span>
                   </DropdownToggle>
 

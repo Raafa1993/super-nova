@@ -25,7 +25,7 @@ const Transactions = () => {
       <Col xl={4}>
         <Card>
           <div className="card-header align-items-center d-flex">
-            <h4 className="card-title mb-0 flex-grow-1">Transactions</h4>
+            <h4 className="card-title mb-0 flex-grow-1">Transações</h4>
             <div className="flex-shrink-0">
               <Nav
                 className="justify-content-end nav-tabs-custom rounded card-header-tabs"
@@ -39,7 +39,7 @@ const Transactions = () => {
                       toggle("1");
                     }}
                   >
-                    All
+                    Tudo
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -50,7 +50,7 @@ const Transactions = () => {
                       toggle("2");
                     }}
                   >
-                    Buy
+                    Comprar
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -61,7 +61,7 @@ const Transactions = () => {
                       toggle("3");
                     }}
                   >
-                    Sell
+                    Vender
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -86,7 +86,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy BTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -97,7 +97,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -105,10 +105,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -123,7 +123,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell ETH</h5>
+                            <h5 className="font-size-14 mb-1">Vender ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -134,7 +134,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -142,10 +142,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -160,7 +160,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy LTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               16 Mar, 2021
                             </p>
@@ -171,7 +171,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">1.88 LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -179,10 +179,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $94.22
+                              R$ 94.22
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -197,7 +197,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy ETH</h5>
+                            <h5 className="font-size-14 mb-1">Comprar ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               17 Mar, 2021
                             </p>
@@ -208,7 +208,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.42 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -216,10 +216,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $84.32
+                              R$ 84.32
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -234,7 +234,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell BTC</h5>
+                            <h5 className="font-size-14 mb-1">Vender BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               18 Mar, 2021
                             </p>
@@ -245,7 +245,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.018 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -253,10 +253,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $145.80
+                              R$ 145.80
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -271,7 +271,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy BTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -282,7 +282,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -290,10 +290,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -308,7 +308,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell ETH</h5>
+                            <h5 className="font-size-14 mb-1">Vender ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -319,7 +319,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -327,10 +327,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -356,7 +356,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy BTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -367,7 +367,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -375,10 +375,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -393,7 +393,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy BTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               18 Mar, 2021
                             </p>
@@ -404,7 +404,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.018 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -412,10 +412,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $145.80
+                              R$ 145.80
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -430,7 +430,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy LTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               16 Mar, 2021
                             </p>
@@ -441,7 +441,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">1.88 LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -449,10 +449,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $94.22
+                              R$ 94.22
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -467,7 +467,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy ETH</h5>
+                            <h5 className="font-size-14 mb-1">Comprar ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -478,7 +478,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -486,10 +486,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -504,7 +504,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy ETH</h5>
+                            <h5 className="font-size-14 mb-1">Comprar ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               17 Mar, 2021
                             </p>
@@ -515,7 +515,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.42 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -523,10 +523,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $84.32
+                              R$ 84.32
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -541,7 +541,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy ETH</h5>
+                            <h5 className="font-size-14 mb-1">Comprar ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -552,7 +552,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -560,10 +560,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -578,7 +578,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Buy BTC</h5>
+                            <h5 className="font-size-14 mb-1">Comprar BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -589,7 +589,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -597,10 +597,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -626,7 +626,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell ETH</h5>
+                            <h5 className="font-size-14 mb-1">Vender ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -637,7 +637,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -645,10 +645,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -663,7 +663,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell BTC</h5>
+                            <h5 className="font-size-14 mb-1">Vender BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -674,7 +674,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -682,10 +682,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -700,7 +700,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell BTC</h5>
+                            <h5 className="font-size-14 mb-1">Vender BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               18 Mar, 2021
                             </p>
@@ -711,7 +711,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.018 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -719,10 +719,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $145.80
+                              R$ 145.80
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -737,7 +737,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell ETH</h5>
+                            <h5 className="font-size-14 mb-1">Vender ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               15 Mar, 2021
                             </p>
@@ -748,7 +748,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.56 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -756,10 +756,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $112.34
+                              R$ 112.34
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -774,7 +774,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell LTC</h5>
+                            <h5 className="font-size-14 mb-1">Vender LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               16 Mar, 2021
                             </p>
@@ -785,7 +785,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">1.88 LTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -793,10 +793,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $94.22
+                              R$ 94.22
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -811,7 +811,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell ETH</h5>
+                            <h5 className="font-size-14 mb-1">Vender ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
                               17 Mar, 2021
                             </p>
@@ -822,7 +822,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.42 ETH</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -830,10 +830,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $84.32
+                              R$ 84.32
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>
@@ -848,7 +848,7 @@ const Transactions = () => {
 
                         <td>
                           <div>
-                            <h5 className="font-size-14 mb-1">Sell BTC</h5>
+                            <h5 className="font-size-14 mb-1">Vender BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
                               14 Mar, 2021
                             </p>
@@ -859,7 +859,7 @@ const Transactions = () => {
                           <div className="text-end">
                             <h5 className="font-size-14 mb-0">0.016 BTC</h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Coin Value
+                              Valor da Moeda
                             </p>
                           </div>
                         </td>
@@ -867,10 +867,10 @@ const Transactions = () => {
                         <td>
                           <div className="text-end">
                             <h5 className="font-size-14 text-muted mb-0">
-                              $125.20
+                              R$ 125.20
                             </h5>
                             <p className="text-muted mb-0 font-size-12">
-                              Amount
+                              Valor
                             </p>
                           </div>
                         </td>

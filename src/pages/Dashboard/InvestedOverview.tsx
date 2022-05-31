@@ -10,15 +10,15 @@ const InvestedOverview = () => {
         <Card className="card-h-100">
           <CardBody>
             <div className="d-flex flex-wrap align-items-center mb-4">
-              <h5 className="card-title me-2">Invested Overview</h5>
+              <h5 className="card-title me-2">Visão Geral do Investimento</h5>
               <div className="ms-auto">
                 <select className="form-select form-select-sm">
-                  <option defaultValue="MAY">May</option>
-                  <option value="AP">April</option>
-                  <option value="MA">March</option>
-                  <option value="FE">February</option>
-                  <option value="JA">January</option>
-                  <option value="DE">December</option>
+                  <option defaultValue="MAY">Maio</option>
+                  <option value="AP">Abril</option>
+                  <option value="MA">Março</option>
+                  <option value="FE">Fevereiro</option>
+                  <option value="JA">Janeiro</option>
+                  <option value="DE">Dezembro</option>
                 </select>
               </div>
             </div>
@@ -31,8 +31,8 @@ const InvestedOverview = () => {
               </div>
               <div className="col-sm align-self-center">
                 <div className="mt-4 mt-sm-0">
-                  <p className="mb-1">Invested Amount</p>
-                  <h4>$ 6134.39</h4>
+                  <p className="mb-1">Total Investido</p>
+                  <h4>R$ 6134.39</h4>
 
                   <p className="text-muted mb-4">
                     {" "}
@@ -44,24 +44,24 @@ const InvestedOverview = () => {
                     <Col xs={6}>
                       <div>
                         <p className="mb-2 text-muted text-uppercase font-size-11">
-                          Income
+                          Renda
                         </p>
-                        <h5 className="fw-medium">$ 2632.46</h5>
+                        <h5 className="fw-medium">R$ 2632.46</h5>
                       </div>
                     </Col>
                     <Col xs={6}>
                       <div>
                         <p className="mb-2 text-muted text-uppercase font-size-11">
-                          Expenses
+                          Despesas
                         </p>
-                        <h5 className="fw-medium">-$ 924.38</h5>
+                        <h5 className="fw-medium">-R$ 924.38</h5>
                       </div>
                     </Col>
                   </Row>
 
                   <div className="mt-2">
                     <Link to="/email-inbox" className="btn btn-primary btn-sm">
-                      View more <i className="mdi mdi-arrow-right ms-1"></i>
+                      Ver mais <i className="mdi mdi-arrow-right ms-1"></i>
                     </Link>
                   </div>
                 </div>

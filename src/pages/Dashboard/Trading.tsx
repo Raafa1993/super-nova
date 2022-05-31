@@ -23,7 +23,7 @@ const Trading = () => {
       <Col xl={4}>
         <Card>
           <CardHeader className="align-items-center d-flex">
-            <h4 className="card-title mb-0 flex-grow-1">Trading</h4>
+            <h4 className="card-title mb-0 flex-grow-1">Negociação</h4>
             <div className="flex-shrink-0">
               <Nav className="nav-tabs-custom card-header-tabs" role="tablist">
                 <NavItem>
@@ -34,7 +34,7 @@ const Trading = () => {
                       toggle("1");
                     }}
                   >
-                    Buy
+                    Comprar
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -45,7 +45,7 @@ const Trading = () => {
                       toggle("2");
                     }}
                   >
-                    Sell
+                    Vender
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -62,27 +62,26 @@ const Trading = () => {
                       href="#!"
                       className="text-reset text-decoration-underline"
                     >
-                      $4335.23
+                      R$4335.23
                     </a>
                   </h5>
                 </div>
-                <h5 className="font-size-14 mb-4">Buy Coins</h5>
+                <h5 className="font-size-14 mb-4">Compras Moedas</h5>
                 <div>
                   <div className="form-group mb-3">
-                    <label>Payment method :</label>
+                    <label>Método de Pagamento :</label>
                     <select className="form-select">
-                      <option>Direct Bank Payment</option>
-                      <option>Credit / Debit Card</option>
+                      <option>Pagamento Direto no Banco</option>
+                      <option>Crédito / Debito</option>
                       <option>Paypal</option>
-                      <option>Payoneer</option>
-                      <option>Stripe</option>
+                      <option>Pagar.Me</option>
                     </select>
                   </div>
 
                   <div>
-                    <label>Add Amount :</label>
+                    <label>Adicionar valor :</label>
                     <div className="input-group mb-3">
-                      <label className="input-group-text">Amount</label>
+                      <label className="input-group-text">Valor</label>
                       <select
                         className="form-select"
                         style={{ maxWidth: "90px" }}
@@ -99,13 +98,13 @@ const Trading = () => {
                     </div>
 
                     <div className="input-group mb-3">
-                      <label className="input-group-text">Price</label>
+                      <label className="input-group-text">Preço</label>
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="$58,245"
+                        placeholder="R$58,245"
                       />
-                      <label className="input-group-text">$</label>
+                      <label className="input-group-text">R$</label>
                     </div>
 
                     <div className="input-group mb-3">
@@ -120,7 +119,7 @@ const Trading = () => {
 
                   <div className="text-center">
                     <button type="button" className="btn btn-success w-md">
-                      Buy Coin
+                      Comprar Moeda
                     </button>
                   </div>
                 </div>
@@ -133,15 +132,15 @@ const Trading = () => {
                       href="#!"
                       className="text-reset text-decoration-underline"
                     >
-                      $4235.23
+                      R$ 4.235,23
                     </a>
                   </h5>
                 </div>
-                <h5 className="font-size-14 mb-4">Sell Coins</h5>
+                <h5 className="font-size-14 mb-4">Vender Moeda</h5>
 
                 <div>
                   <div className="form-group mb-3">
-                    <label>Wallet ID :</label>
+                    <label>ID da Carteira:</label>
                     <input
                       type="email"
                       className="form-control"
@@ -150,9 +149,9 @@ const Trading = () => {
                   </div>
 
                   <div>
-                    <label>Add Amount :</label>
+                    <label>Adicionar Valor :</label>
                     <div className="input-group mb-3">
-                      <label className="input-group-text">Amount</label>
+                      <label className="input-group-text">Valor</label>
 
                       <select
                         className="form-select"
@@ -170,7 +169,7 @@ const Trading = () => {
                     </div>
 
                     <div className="input-group mb-3">
-                      <label className="input-group-text">Price</label>
+                      <label className="input-group-text">Preço</label>
 
                       <input
                         type="text"
@@ -193,7 +192,7 @@ const Trading = () => {
 
                   <div className="text-center">
                     <button type="button" className="btn btn-danger w-md">
-                      Sell Coin
+                      Vender Moeda
                     </button>
                   </div>
                 </div>

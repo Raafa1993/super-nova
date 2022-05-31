@@ -10,11 +10,11 @@ const MarketOverview = () => {
         <Card>
           <CardBody>
             <div className="d-flex flex-wrap align-items-center mb-4">
-              <h5 className="card-title me-2">Market Overview</h5>
+              <h5 className="card-title me-2">Visão Geral do Mercado</h5>
               <div className="ms-auto">
                 <div>
                   <button type="button" className="btn btn-soft-primary btn-sm">
-                    ALL
+                    TUDO
                   </button>
                   <button
                     type="button"
@@ -32,7 +32,7 @@ const MarketOverview = () => {
                     type="button"
                     className="btn btn-soft-secondary btn-sm active"
                   >
-                    1Y
+                    1A
                   </button>
                 </div>
               </div>
@@ -144,7 +144,7 @@ const MarketOverview = () => {
                   </div>
                   <div className="mt-4 pt-2">
                     <Link to="/invoices-list" className="btn btn-primary w-100">
-                      See All Balances{" "}
+                      Ver Todos os Balanços{" "}
                       <i className="mdi mdi-arrow-right ms-1"></i>
                     </Link>
                   </div>

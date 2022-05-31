@@ -8,7 +8,7 @@ const items = [
     icon: "currency-btc",
     title: "Bitcoin",
     description:
-      "Bitcoin prices fell sharply amid the global sell-off in equities.Negative news over the past week has dampened sentiment for bitcoin.",
+      "Os preços do Bitcoin caíram acentuadamente em meio à liquidação global de ações. Notícias negativas na semana passada diminuíram o sentimento pelo Bitcoin.",
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ const NewSlider = () => {
           </h4>
           <p className="text-white-50 font-size-13"> {item["description"]} </p>
           <Link to="/invoices-list" className="btn btn-light btn-sm" >
-            View details <i className="mdi mdi-arrow-right ms-1"></i>
+            Ver detalhes <i className="mdi mdi-arrow-right ms-1"></i>
           </Link>
         </div>
       </CarouselItem>
