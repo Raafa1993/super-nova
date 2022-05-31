@@ -23,7 +23,7 @@ const DeleteModal = ({
                 className="mdi mdi-alert-circle-outline"
                 style={{ fontSize: "9em", color: "orange" }}
               />
-              <h2>Are you sure?</h2>
+              <h2>tem certeza?</h2>
               <h4>{"You won't be able to revert this!"}</h4>
             </div>
           </Col>
@@ -36,14 +36,14 @@ const DeleteModal = ({
                 className="btn btn-success btn-lg ms-2"
                 onClick={onDeleteClick}
               >
-                Yes, delete it!
+                Sim, deletar!
               </button>
               <button
                 type="button"
                 className="btn btn-danger btn-lg ms-2"
                 onClick={onCloseClick}
               >
-                Cancel
+                Cancelar
               </button>
             </div>
           </Col>

@@ -12,7 +12,7 @@ interface DashboardProps {
 const WidgetsData : Array<DashboardProps> = [
     {
         id: 1,
-        title: "My Wallet",
+        title: "Minha Carteira",
         price: 865.2,
         rank: "+$20.9k",
         isDoller: true,
@@ -22,7 +22,7 @@ const WidgetsData : Array<DashboardProps> = [
     },
     {
         id: 2,
-        title: "Number of Trades",
+        title: "Números de transações",
         price: 6258,
         rank: "-29 Trades",
         isDoller: false,
@@ -32,7 +32,7 @@ const WidgetsData : Array<DashboardProps> = [
     },
     {
         id: 3,
-        title: "Invested Amount",
+        title: "Total Investido",
         price: 432,
         rank: "+$2.8k",
         isDoller: true,
@@ -42,7 +42,7 @@ const WidgetsData : Array<DashboardProps> = [
     },
     {
         id: 5,
-        title: "Profit Ration",
+        title: "Indice de Lucro",
         price: 1257,
         rank: "+$2.75%",
         isDoller: true,

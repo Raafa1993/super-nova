@@ -62,7 +62,7 @@ const Trading = () => {
                       href="#!"
                       className="text-reset text-decoration-underline"
                     >
-                      R$4335.23
+                      R$ 4.335,23
                     </a>
                   </h5>
                 </div>

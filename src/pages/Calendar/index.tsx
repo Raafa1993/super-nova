@@ -248,13 +248,13 @@ const Calender = ({ className }: CalendarProps) => {
                           onClick={toggleCategory}
                         >
                           <i className="mdi mdi-plus-circle-outline me-1" />
-                          Create New Event
+                          Criar Novo Evento
                         </Button>
                       </div>
                       <div id="external-events" className="mt-2">
                         <br />
                         <p className="text-muted">
-                          Drag and drop your event or click in the calendar
+                          Arraste e solte seu evento ou clique no calendário
                         </p>
                         {categories &&
                           categories.map((category: any, i: any) => (
@@ -349,12 +349,12 @@ const Calender = ({ className }: CalendarProps) => {
                           }}
                           value={event ? event.category : "bg-primary"}
                         >
-                          <option value="bg-danger">Danger</option>
-                          <option value="bg-success">Success</option>
-                          <option value="bg-primary">Primary</option>
+                          <option value="bg-danger">Perigo</option>
+                          <option value="bg-success">Successo</option>
+                          <option value="bg-primary">Primária</option>
                           <option value="bg-info">Info</option>
                           <option value="bg-dark">Dark</option>
-                          <option value="bg-warning">Warning</option>
+                          <option value="bg-warning">Aviso</option>
                         </AvField>
                       </Col>
                     </Row>
@@ -422,12 +422,12 @@ const Calender = ({ className }: CalendarProps) => {
                           label="Choose Category Color"
                           value={event ? event.event_category : "bg-primary"}
                         >
-                          <option value="bg-danger">Danger</option>
-                          <option value="bg-success">Success</option>
-                          <option value="bg-primary">Primary</option>
+                          <option value="bg-danger">Perigo</option>
+                          <option value="bg-success">Successo</option>
+                          <option value="bg-primary">Primária</option>
                           <option value="bg-info">Info</option>
                           <option value="bg-dark">Dark</option>
-                          <option value="bg-warning">Warning</option>
+                          <option value="bg-warning">Aviso</option>
                         </AvField>
                       </Col>
                     </Row>

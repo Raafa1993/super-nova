@@ -52,7 +52,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">+0.5 BTC</h6>
-                        <div className="font-size-13">$178.53</div>
+                        <div className="font-size-13">R$ 178,53</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
@@ -97,7 +97,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">-20.5 ETH</h6>
-                        <div className="font-size-13">$3541.45</div>
+                        <div className="font-size-13">R$ 3541,45</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
@@ -142,7 +142,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">+0.5 BTC</h6>
-                        <div className="font-size-13">$5791.45</div>
+                        <div className="font-size-13">R$ 5791,45</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
@@ -187,7 +187,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">-1.5 LTC</h6>
-                        <div className="font-size-13">$5791.45</div>
+                        <div className="font-size-13">R$ 5791,45</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
@@ -232,7 +232,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">+0.5 BTC</h6>
-                        <div className="font-size-13">$5791.45</div>
+                        <div className="font-size-13">R$ 5791,45</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
@@ -277,7 +277,7 @@ const RecentActivity = () => {
                       </div>
                       <div className="flex-shrink-0 text-end me-3">
                         <h6 className="mb-1">+.55 LTC</h6>
-                        <div className="font-size-13">$91.45</div>
+                        <div className="font-size-13">R$ 91,45</div>
                       </div>
 
                       <div className="flex-shrink-0 text-end">
