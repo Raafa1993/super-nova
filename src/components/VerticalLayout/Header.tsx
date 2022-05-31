@@ -19,6 +19,8 @@ import LightDark from "../CommonForBoth/Menus/LightDark";
 import { Dropdown, DropdownToggle, DropdownMenu, Row, Col } from "reactstrap";
 
 //import images
+import logoSuper from '../../assets/images/logo-lg-super.png';
+import logoSuperSm from '../../assets/images/logo-sm-super.png';
 import logoSvg from "../../assets/images/logo-sm.svg";
 import github from "../../assets/images/brands/github.png";
 import bitbucket from "../../assets/images/brands/bitbucket.png";
@@ -74,21 +76,21 @@ const Header = (props: any) => {
             <div className="navbar-brand-box">
               <Link to="/dashboard" className="logo logo-dark">
                 <span className="logo-sm">
-                  <img src={logoSvg} alt="" height="24" />
+                  <img src={logoSuperSm} alt="" height="24" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoSvg} alt="" height="24" />{" "}
-                  <span className="logo-txt">Minia</span>
+                  <img src={logoSuper} alt="" height="24" />{" "}
+                  {/* <span className="logo-txt">Minia</span> */}
                 </span>
               </Link>
 
               <Link to="/dashboard" className="logo logo-light">
                 <span className="logo-sm">
-                  <img src={logoSvg} alt="" height="24" />
+                  <img src={logoSuperSm} alt="" height="24" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoSvg} alt="" height="24" />{" "}
-                  <span className="logo-txt">Minia</span>
+                  <img src={logoSuper} alt="" height="24" />{" "}
+                  {/* <span className="logo-txt">Minia</span> */}
                 </span>
               </Link>
             </div>

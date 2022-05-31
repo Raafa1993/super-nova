@@ -233,7 +233,7 @@ const SidebarContent = (props: any) => {
               </ul>
             </li>
 
-            <li className="menu-title">{props.t("Elements")}</li>
+            {/* <li className="menu-title">{props.t("Elements")}</li>
 
             <li>
               <Link to="/#" className="has-arrow ">
@@ -466,9 +466,9 @@ const SidebarContent = (props: any) => {
                   </ul>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
-          <div className="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
+          {/* <div className="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
             <div className="card-body">
               <img src={giftBox} alt="" />
               <div className="mt-4">
@@ -484,7 +484,7 @@ const SidebarContent = (props: any) => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </SimpleBar>
     </React.Fragment>

@@ -25,10 +25,6 @@ const languages : Object = {
     label: "English",
     flag: usFlag,
   },
-  br: {
-    label: "Brasil",
-    flag: usFlag,
-  },
 }
 
 export default languages
