@@ -51,7 +51,7 @@ const Widgets = ({ options }: any) => {
                   {widget["rank"]}
                 </span>
                 <span className="ms-1 text-muted font-size-13">
-                  Since last week
+                  Desde a última semana
                 </span>
               </div>
             </CardBody>
